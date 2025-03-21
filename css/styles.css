@@ -120,10 +120,13 @@ a {
 }
 
 .hero-section {
+  padding-top: 188px;
+  padding-bottom: 188px;
   background-color: #2e2f42;
 }
 
 .hero-title {
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -132,6 +135,11 @@ a {
 }
 
 .hero-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -146,7 +154,31 @@ a {
 .hero-button:focus {
   background-color: #404bbf;
 }
+
+.features-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
 .features-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -159,6 +191,10 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.features-item:first-child {
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-section {
@@ -221,4 +257,8 @@ a {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+
+img {
+  display: block;
 }
