@@ -194,11 +194,11 @@ a {
   color: #434455;
 }
 
-.features-item: {
-  width: calc((100% - 72px) / 4);
+.features-item {
+  width: calc((100% - 3 * 24px) / 4);
 }
 
-.team-section {
+. .team-section {
   padding-top: 120px;
   padding-bottom: 120px;
   background-color: #f4f4fd;
