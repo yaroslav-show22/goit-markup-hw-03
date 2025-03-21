@@ -199,8 +199,7 @@ a {
 }
 
 . .team-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
   background-color: #f4f4fd;
 }
 
