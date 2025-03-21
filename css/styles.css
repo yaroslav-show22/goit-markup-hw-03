@@ -198,8 +198,9 @@ a {
   width: calc((100% - 3 * 24px) / 4);
 }
 
-. .team-section {
-  padding: 120px 0;
+.team-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: #f4f4fd;
 }
 
