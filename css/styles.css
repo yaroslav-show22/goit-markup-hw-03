@@ -126,6 +126,9 @@ a {
 }
 
 .hero-title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
   max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
@@ -135,6 +138,8 @@ a {
 }
 
 .hero-button {
+  margin-right: auto;
+  margin-left: auto;
   display: block;
   min-width: 169px;
   height: 56px;
@@ -306,6 +311,7 @@ a {
 }
 
 .footer-text {
+  width: 300px;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
